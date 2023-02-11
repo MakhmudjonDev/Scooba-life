@@ -160,11 +160,103 @@ header nav .nav__right{
 
 .card-activity .card-activity-context .title-font{
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
 
     color: #666666;
+    margin-bottom: 20px;
 }
+
+.cards{
+  padding: 3rem 0;
+  color: #666666;
+
+}
+
+.cards .card-trend{
+  /* width: 275px; */
+  box-shadow: 0 2.5rem  25rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  transition: all .2s;
+  /* padding-bottom: 4rem;
+  margin: -2.5rem; */
+  /* border: 1px solid red; */
+}
+
+.cards .card-trend:hover{
+  /* width: 275px; */
+  transform: scale(1.1);
+  /* border: 1px solid red; */
+}
+
+.card-image{
+  height: 15rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 5rem;
+  margin-bottom: 0.5rem;
+  /* margin-bottom: -3px; */
+}
+
+.card-image--1{
+  background-image: url(../img/bodyskins.jpg);
+
+}
+
+.card-image--2{
+  background-image: url(../img/maskmount.jpg);
+}
+
+.card-image--3{
+  background-image: url(../img/wristcomputer.jpg);
+}
+
+.card-image--4{
+  background-image: url(../img/boots.jpg);
+}
+
+.card-sale{
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  color: #36427A;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+
+
+.cards .card-trend .title-font{
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  word-spacing: 0.2rem;
+}
+
+.card-status__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.card-status__bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card-status__bottom .card-discount{
+  font-size: 2.4rem;
+}
+.card-status__bottom .card-price{
+  font-size: 1.6rem;
+  text-decoration:line-through;
+}
+
 .btn, .btn:link, .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
